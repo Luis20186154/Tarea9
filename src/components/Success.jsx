@@ -52,6 +52,10 @@ export class Success extends Component {
             <h2>Gracias Por Haber Completado El Registro</h2>
             <br />
             <p>Estaremos enviandote un email de cofirmación.</p>
+            <br />
+            <hr />            
+            <p><strong>Matrícula: </strong> 2018-6154</p>
+            <p><strong>Aplicación Realizada Por:</strong> Luis Martin Gonzalez Torres</p>
           </AppBar>
         </Dialog>
       </>
