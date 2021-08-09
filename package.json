@@ -46,7 +46,9 @@
     "@date-io/date-fns": "1.x",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@material-ui/pickers": "^3.3.10",
+    "axios": "^0.21.1",
     "date-fns": "^2.23.0",
+    "emailjs-com": "^3.2.0",
     "notistack": "^1.0.10",
     "sweetalert2": "^11.1.2",
     "sweetalert2-react-content": "^4.1.1"

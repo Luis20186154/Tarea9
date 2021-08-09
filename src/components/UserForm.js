@@ -12,7 +12,7 @@ export class UserForm extends Component {
     cedula: '',
     firstName: '',
     lastName: '',
-    birth: new Date(),
+    birth: new Date().toLocaleDateString(),
     bloodType: '',
     email: '',
     justification: '',
@@ -61,12 +61,12 @@ export class UserForm extends Component {
     switch (step) {
       case 1:
         return(
-          <FormValidateCedula
+           <FormValidateCedula
             nextStep={this.nextStep}
             handleChange={this.handleChange}
             values={values}
-          />
-        )        
+          /> 
+        )
       case 2:
         return (
           <FormUserDetails
@@ -107,7 +107,7 @@ export class UserForm extends Component {
           />
         );
       case 6:
-        return <Success />;
+        return <Success values={values}/>;
       default:
         (console.log('This is a multi-step form built with React.'))
     }
